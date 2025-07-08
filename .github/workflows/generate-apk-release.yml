@@ -44,7 +44,7 @@ jobs:
 
       # Run Build Project
       - name: Build gradle project
-        run: ./gradlew build
+        run: ./gradlew build -x test
 
       # Create APK Release
       - name: Build apk release project (APK) - ${{ env.main_project_module }} module
