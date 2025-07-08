@@ -14,6 +14,8 @@ import org.totschnig.myexpenses.di.NetworkModule
 import java.time.LocalDate
 import javax.net.SocketFactory
 
+private const val COIN_API_API_KEY = "test-api-key"
+
 @RunWith(RobolectricTestRunner::class)
 class ExchangeRateServiceTest {
     private val service: ExchangeRateService = DaggerAppComponent.builder()

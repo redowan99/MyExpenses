@@ -15,6 +15,8 @@ import org.totschnig.myexpenses.BuildConfig
 import org.totschnig.myexpenses.R
 import org.totschnig.myexpenses.viewmodel.data.VersionInfo
 
+private const val BETA = false // or true, depending on test scenario
+
 @RunWith(RobolectricTestRunner::class)
 class VersionInfoTest {
 
